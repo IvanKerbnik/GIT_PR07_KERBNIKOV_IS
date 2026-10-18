@@ -27,5 +27,10 @@ namespace Kerbnikov_PR07_GIT
         {
             timer1.Start();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Кербников Иван Сергеевич");
+        }
     }
 }
