@@ -16,5 +16,12 @@ namespace Kerbnikov_PR07_GIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AdminForm admin = new AdminForm();
+            admin.Show();
+            this.Hide();
+        }
     }
 }
